@@ -23,7 +23,7 @@ function App() {
                 <img className="inline-block mt-28 hidden xl:block" src={left} />
               </div>
               <div>
-                <img className="inline-block mt-24 md:mt-0 p-8 md:p-0"  src={main} />
+                <img className="inline-block mt-24 md:mt-0 p-8 md:p-0" src={main} />
               </div>
               <div>
                 <img className="inline-block mt-28 hidden lg:block" src={right} />
