@@ -11,8 +11,8 @@ function App() {
         <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
           <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
             <h1 className="text-xl md:text-xl text-yellow-300 tracking-loose">Dragon Mint Advisors</h1>
-            <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Headline</h2>
-            <p className="text-sm md:text-base text-gray-50 mb-4">Discover the world of ERC404 through our Dragon Mint Advisors</p>
+            <h2 className="hidden text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Headline</h2>
+            <p className="text-sm md:text-base text-gray-50 mb-4">Unlock a World of Digital Excellence in ERC404 with Dragon Mint Advisors</p>
             <a href="#"
               className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
             Explore Now</a>
