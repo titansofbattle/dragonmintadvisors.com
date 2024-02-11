@@ -15,7 +15,7 @@ function App() {
             <p className="text-sm md:text-base text-gray-50 mb-4">Unlock a World of Digital Excellence in ERC404 with Dragon Mint Advisors</p>
             <a href="#"
               className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-            Explore Now</a>
+            Claim Yours Now</a>
           </div>
           <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3 justify-center">
             <div className="h-48 flex flex-wrap content-center">
