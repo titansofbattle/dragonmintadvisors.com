@@ -14,7 +14,7 @@ function App() {
             <h1 className="text-xl md:text-xl text-yellow-300 tracking-loose">Dragon Mint Advisors</h1>
             <h2 className="hidden text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Headline</h2>
             <p className="text-sm md:text-base text-gray-50 mb-4">Unlock a World of Digital Excellence in ERC404 with Dragon Mint Advisors</p>
-            <a href="https://app.uniswap.org/swap?inputCurrency=0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1&outputCurrency=0x2c47e4ad6C1c512c5890877f6a3108431d79A53f"
+            <a target="_blank" href="https://app.uniswap.org/swap?inputCurrency=0xF19308F923582A6f7c465e5CE7a9Dc1BEC6665B1&outputCurrency=0x2c47e4ad6C1c512c5890877f6a3108431d79A53f"
               className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
             Claim Yours Now</a>
             <a className="hover:scale-125 duration-300 mt-4" href="https://t.me/dragonmintadvisors" target="_blank" rel="noreferrer" aria-label="telegram">
