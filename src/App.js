@@ -26,18 +26,25 @@ function App() {
           <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3 justify-center">
             <div className="h-48 flex flex-wrap content-center">
               <div>
-                <img className="inline-block mt-28 hidden xl:block" src={left} />
+                <img className="rounded-lg mt-28 hidden xl:block" src={left} />
               </div>
               <div>
-                <img className="inline-block mt-24 md:mt-0 p-8 md:p-0" src={main} />
+                <img className="rounded-[10px] mt-24 md:mt-0 p-8 md:p-0" src={main} />
               </div>
               <div>
-                <img className="inline-block mt-28 hidden lg:block" src={right} />
+                <img className="rounded-lg mt-28 hidden lg:block" src={right} />
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="w-full flex items-center justify-center">
+        <div id="dexscreener-embed" className="w-11/12 md:!w-3/5 h-[700px] md:h-1/2">
+          <iframe src="https://dexscreener.com/pulsechain/0xCcf703CC593a012574794509Dd3533c1d05eA347?embed=1&theme=dark"></iframe>
+        </div>
+      </div>
+
     </section>
   );
 }
