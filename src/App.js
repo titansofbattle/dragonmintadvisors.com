@@ -14,7 +14,7 @@ function App() {
             <h1 className="text-xl md:text-xl text-yellow-300 tracking-loose">Dragon Mint Council</h1>
             <h2 className="hidden text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Headline</h2>
             <p className="text-sm md:text-base text-gray-50 mb-4">Unlock a World of Digital Excellence in ERC404 with Dragon Mint Council</p>
-            <a target="_blank" href="#"
+            <a target="_blank" href="https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x47cd1790BBA178894ce245D022ce869C674275dE&inputCurrency=0xA1077a294dDE1B09bB078844df40758a5D0f9a27"
               className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
             Claim Yours Now</a>
             <a className="hover:scale-125 duration-300 mt-4 z-20" href="https://t.me/dragonmintadvisors" target="_blank" rel="noreferrer" aria-label="telegram">
