@@ -11,9 +11,9 @@ function App() {
       <div className="bg-black text-white md:py-20 min-h-screen flex flex-col md:justify-center">
         <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
           <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-12">
-            <h1 className="text-xl md:text-xl text-yellow-300 tracking-loose">Dragon Mint Advisors</h1>
+            <h1 className="text-xl md:text-xl text-yellow-300 tracking-loose">Dragon Mint Council</h1>
             <h2 className="hidden text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Headline</h2>
-            <p className="text-sm md:text-base text-gray-50 mb-4">Unlock a World of Digital Excellence in ERC404 with Dragon Mint Advisors</p>
+            <p className="text-sm md:text-base text-gray-50 mb-4">Unlock a World of Digital Excellence in ERC404 with Dragon Mint Council</p>
             <a target="_blank" href="#"
               className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
             Claim Yours Now</a>
