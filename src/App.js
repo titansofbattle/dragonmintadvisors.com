@@ -40,7 +40,7 @@ function App() {
       </div>
 
       <div className="md:w-3/5 flex flex-col justify-left text-white my-24 mx-16 md:mx-auto">
-        <h1 className="text-xl text-yellow-300">Prologue:</h1>
+        <h1 className="text-xl text-yellow-300 mb-4">Prologue:</h1>
         <p className="pb-4">
           In the ancient times, there existed a legendary assembly known as "The Council of Six", 
           guardians of the cosmic equilibrium and the custodians of the draconic essence.
