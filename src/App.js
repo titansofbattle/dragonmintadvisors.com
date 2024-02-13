@@ -81,7 +81,7 @@ function App() {
 
       <div className="w-full flex items-center justify-center">
         <div id="dexscreener-embed" className="w-11/12 md:!w-3/5 h-[700px] md:h-1/2">
-          <iframe src="https://dexscreener.com/pulsechain/0xCcf703CC593a012574794509Dd3533c1d05eA347?embed=1&theme=dark"></iframe>
+          <iframe src="https://dexscreener.com/pulsechain/0xA8ab175Bcea7C4F539cD1c8F971421af9497ac65?embed=1&theme=dark"></iframe>
         </div>
       </div>
 
