@@ -8,10 +8,10 @@ import right from './assets/right.webp'
 function App() {
   return (
     <section>
-      <div className="bg-black text-white md:py-20 min-h-screen flex flex-col md:justify-center">
-        <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+      <div className="bg-black text-white md:pt-20 min-h-screen flex flex-col md:justify-center">
+        <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:mt-24">
           <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-12">
-            <h1 className="text-xl md:text-xl text-yellow-300 tracking-loose">Dragon Mint Council</h1>
+            <h1 className="text-xl text-yellow-300 tracking-loose">Dragon Mint Council</h1>
             <h2 className="hidden text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Headline</h2>
             <p className="text-sm md:text-base text-gray-50 mb-4">Unlock a World of Digital Excellence in ERC404 with Dragon Mint Council</p>
             <a target="_blank" href="https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x47cd1790BBA178894ce245D022ce869C674275dE&inputCurrency=0xA1077a294dDE1B09bB078844df40758a5D0f9a27"
@@ -37,6 +37,46 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="md:w-3/5 flex flex-col justify-left text-white my-24 mx-16 md:mx-auto">
+        <h1 className="text-xl text-yellow-300 mb-4">Prologue:</h1>
+        <p className="pb-4">
+          In the ancient times, there existed a legendary assembly known as "The Council of Six", 
+          guardians of the cosmic equilibrium and the custodians of the draconic essence.
+          Comprised of six elite dragons, each member was chosen for their unique powers and wisdom. 
+          However, as ages passed and the Titans fell into slumber, the Council faded into myth, their existence lost to time.
+        </p>
+
+        <p className="pb-2">🐉 The Awakening of the Dragon Mint Council 🐉</p>
+
+        <p className="pb-4">As the fabric of reality begins to shift, awakening ancient powers long dormant awakes. 
+          Among these are the six dragons of The Dragon Mint Council, 
+          each bound to an elemental essence and a guardian of the realm's balance.
+          Their awakening marks the beginning of the Journey.
+        </p>
+
+        <p className="pb-2">🐉 The Members of the Council of Six 🐉</p>
+        <ul>
+          <li><p className="text-yellow-300">Sapphire 'Moon Sentinel' Skyguard: Guardian of the Night Sky</p> This dragon brings balance through the mastery of lunar magic and aerial supremacy.
+            <img src="https://dma.dragonmintcouncil.com/skyguard.jpg" className="md:w-1/2 mx-0 my-8" />
+          </li>
+          <li><p className="text-yellow-300">Twilight 'Aurora Bane' Scaleward: Protector of the Dusk and Dawn</p> wielding the ethereal energies of transitions and change.
+            <img src="https://dma.dragonmintcouncil.com/scaleward.jpg" className="md:w-1/2 mx-0 my-8" />
+          </li>
+          <li><p className="text-yellow-300">Ember 'Crescent Guardian' Nightstrider: Keeper of the Eternal Flame</p> this dragon embodies the spirit of courage and renewal.
+            <img src="https://dma.dragonmintcouncil.com/nightstrider.jpg" className="md:w-1/2 mx-0 my-8" />
+          </li>
+          <li><p className="text-yellow-300">Neon 'Skyline Sovereign' Drakemaster: Overlord of the Celestial Horizons</p> commanding the forces of weather and the heavens.
+            <img src="https://dma.dragonmintcouncil.com/drakemaster.jpg" className="md:w-1/2 mx-0 my-8" />
+          </li>
+          <li><p className="text-yellow-300">Inferno 'Prism Breaker' Flameheart: Warrior of the Blazing Core</p> channeling the raw power of fire and transformation.
+            <img src="https://dma.dragonmintcouncil.com/flameheart.jpg" className="md:w-1/2 mx-0 my-8" />
+          </li>
+          <li><p className="text-yellow-300">Cerulean 'Mystic Monarch' Celestine: Sage of the Mystic Seas</p> harnessing the deep magics of water and the Arcane.
+            <img src="https://dma.dragonmintcouncil.com/celestine.jpg" className="md:w-1/2 mx-0 my-8" />
+          </li>
+        </ul>
       </div>
 
       <div className="w-full flex items-center justify-center">
