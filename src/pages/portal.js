@@ -102,13 +102,15 @@ export default function Portal() {
         <div className="w-full flex flex-col">
           
           <div class="my-12 px-10 flex flex-col justify-center items-center">
-            <h1 className="text-white mb-4 text-2xl">View your Council Members</h1>
+            <h1 className="text-white text-2xl">View your Council Members</h1>
+
+            <div className="my-2">{address}</div>
 
             {isConnected ? 
-                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-10 xl-grid-cols-4 gap-y-10 gap-x-6"> 
+              <div class="mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-10 xl-grid-cols-4 gap-y-10 gap-x-6"> 
                 {collection.map((council, index) => (
                   
-                  <div className="group h-[460px] w-80 [perspective:1000px]">
+                <div className="group h-[460px] w-80 [perspective:1000px]">
                   <div
                     className={`relative h-full w-full shadow-xl transition-all duration-500 [transform-style:preserve-3d]`}>
                     <div className="absolute inset-0 p-8 bg-[#fdfcf7] bg-opacity-10 rounded-xl">
