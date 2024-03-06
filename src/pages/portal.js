@@ -101,7 +101,7 @@ export default function Portal() {
       <div className="flex">
         <div className="w-full flex flex-col">
           
-          <div class="mt-12 px-10 flex flex-col justify-center items-center">
+          <div class="my-12 px-10 flex flex-col justify-center items-center">
             <h1 className="text-white mb-4 text-2xl">View your Council Members</h1>
 
             {isConnected ? 
