@@ -70,7 +70,7 @@ export default function Portal() {
           {isConnected ? 
             <img src={loading} alt="Loading..." className="mx-auto w-28" />
             : 
-            <button onClick={() => connect({ connector })} className="mt-4 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+            <button onClick={() => connect({ connector })} className="mx-auto mt-4 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
               connect
             </button>
           }
