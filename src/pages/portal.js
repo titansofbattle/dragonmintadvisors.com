@@ -51,7 +51,7 @@ export default function Portal() {
       for (const tokenID of ownedTokenIds) {
         dataset.push(JSON.parse(String(await dmc.tokenURI(tokenID)).replace('data:application/json;utf8,', '')))
       }
-)
+
       setCollection(dataset)
       setIsLoading(false)
     }
