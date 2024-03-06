@@ -66,7 +66,14 @@ export default function Portal() {
       <div className="flex flex-col items-center w-full text-white pt-20">
         <div className="flex flex-col w-full lg:w-1/3 justify-center items-start px-12">
           <h1 className="mx-auto text-xl text-yellow-300 tracking-loose">Dragon Mint Council</h1>
-          <img src={loading} alt="Loading..." className="mx-auto w-28" />
+          
+          {isConnected ? 
+            <img src={loading} alt="Loading..." className="mx-auto w-28" />
+            : 
+            <button onClick={() => connect({ connector })} className="mt-4 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+              connect
+            </button>
+          }
         </div>
       </div>
     );
