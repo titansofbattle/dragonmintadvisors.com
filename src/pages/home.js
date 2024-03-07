@@ -9,18 +9,18 @@ export default function Home () {
     <section>
       <div className="bg-black text-white md:pt-20 min-h-screen flex flex-col md:justify-center">
         <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:mt-24">
-          <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-12">
+          <div className="flex flex-col w-full xl:w-1/3 justify-center items-start p-12">
             <h1 className="text-xl text-yellow-300 tracking-loose">Dragon Mint Council</h1>
             <h2 className="hidden text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Headline</h2>
             <p className="text-sm md:text-base text-gray-50 mb-4">Unlock a World of Digital Excellence in ERC404 with Dragon Mint Council</p>
 
             <div className="flex flex-row justify-between w-full">
             <a target="_blank" href="https://pulsex.mypinata.cloud/ipfs/bafybeidea3ibq4lu5t6vk6ihp4iuznjb3ltsdm5y2shv4atxgyd3d33aim/#/?outputCurrency=0x47cd1790BBA178894ce245D022ce869C674275dE&inputCurrency=0xA1077a294dDE1B09bB078844df40758a5D0f9a27"
-              className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+              className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-2 xl:px-4 border border-yellow-300 hover:border-transparent">
             Claim Yours Now</a>
 
             <a href="/portal"
-              className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+              className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-2 xl:px-4 border border-yellow-300 hover:border-transparent">
             View Your NFTs</a>
             </div>
 

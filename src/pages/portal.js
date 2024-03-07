@@ -1,18 +1,20 @@
 import React, { useEffect, useState } from 'react'
-import { useAccount, useConnect, useEnsName } from 'wagmi'
+import { useAccount, useConnect } from 'wagmi'
 import loading from '../assets/Infinity-1s-200px.svg'
 import useNFTCollection from '../hooks/useNFTCollection'
 import { Tabs, Tab } from './tabs'
 
 
-
 export default function Portal() {
   const { address, isConnected } = useAccount()
   const [inputAddress, setInputAddress] = useState('')
-  const { isLoading, collection, setAddress } = useNFTCollection(address);
+  const { isLoading, collection, fetchNFTs } = useNFTCollection(address);
 
-  // const { isLoading, collection } = useNFTCollection(isConnected ? address : inputAddress)
-
+  useEffect(() => {
+    if (isConnected) {
+      fetchNFTs(address)
+    }
+  }, [])
 
   const { connect, connectors } = useConnect({
     onError(e) {
@@ -27,19 +29,14 @@ export default function Portal() {
 
   const handleAddressSubmit = (event) => {
     event.preventDefault()
-    console.log(event)
 
     // Basic validation for an Ethereum address
     if (/^0x[a-fA-F0-9]{40}$/.test(inputAddress)) {
-      // If the inputAddress is a valid Ethereum address
       console.log("Valid Ethereum address:", inputAddress);
-      setAddress(inputAddress);
-      // You can now proceed to query for NFTs using this address
+      fetchNFTs(inputAddress);
     } else {
-      // If the inputAddress is not valid
       alert("Please enter a valid Ethereum address.");
     }
-
   }
 
   return (
