@@ -67,9 +67,10 @@ export default function Portal() {
               onChange={handleAddressChange}
               className="text-gray-500 py-3 px-4 w-full lg:w-1/2 rounded shadow font-thin focus:outline-none focus:shadow-lg focus:shadow-slate-200 duration-100 shadow-gray-100"
             />
-            <button type="submit" className="mt-4 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+            <button type="submit" className="my-4 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
               Query NFTs
             </button>
+            <div>DMC Balance: <span className="text-yellow-300">{collection.length}</span></div>
           </form>
         </Tab>
       </Tabs>
