@@ -48,7 +48,7 @@ export default function Portal() {
       <Tabs className="mx-auto w-3/4">
         <Tab label="Connect Wallet" className="mx-auto w-full flex justify-center items-center">
           {!isConnected ? (
-            <button onClick={() => connect({ connector })} className="w-1/2 mt-4 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+            <button onClick={() => connect({ connector })} className="mt-4 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
               connect
             </button>
           ) : (
